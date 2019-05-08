@@ -1,0 +1,19 @@
+<resources>
+
+    <string-array name="array_string">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+        <item>Six</item>
+        <item>Seven</item>
+    </string-array>
+
+
+    <string name="app_name">MyControls</string>
+
+    <string name="hello_world">Hello world</string>
+
+
+</resources>

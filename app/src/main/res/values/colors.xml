@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1CC2B0</color>
+    <color name="colorPrimaryDark">#0D9480</color>
+    <color name="colorAccent">#B80948</color>
+
+    <color name="end_button_default_color">#4356C7</color>
+    <color name="center_button_default_color">#00B0FF</color>
+    <color name="start_button_default_color">#00E5FF</color>
+
+
+    <color name="end_button_pressed_color">#2236D5</color>
+    <color name="center_button_pressed_color">#217EB9</color>
+    <color name="start_button_pressed_color">#2AC0DB</color>
+
+    <color name="end_button_focused_color">#FFEB00</color>
+    <color name="center_button_focused_color">#42DF0E</color>
+    <color name="start_button_focused_color">#FFEB00</color>
+
+</resources>
