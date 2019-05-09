@@ -1,20 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Main theme colors -->
     <color name="colorPrimary">#1CC2B0</color>
     <color name="colorPrimaryDark">#0D9480</color>
     <color name="colorAccent">#B80948</color>
 
+    <!-- Buttons colors -->
     <color name="end_button_default_color">#4356C7</color>
     <color name="center_button_default_color">#00B0FF</color>
     <color name="start_button_default_color">#00E5FF</color>
-
 
     <color name="end_button_pressed_color">#2236D5</color>
     <color name="center_button_pressed_color">#217EB9</color>
     <color name="start_button_pressed_color">#2AC0DB</color>
 
-    <color name="end_button_focused_color">#FFEB00</color>
-    <color name="center_button_focused_color">#42DF0E</color>
-    <color name="start_button_focused_color">#FFEB00</color>
+    <color name="end_focused_button_color">#00E5FF</color>
+    <color name="end_focused_button_stroke_color">#217EB9</color>
+
+
+    <!-- Spinner colors -->
+    <color name="spinner_start_default_color">#1DE9B6</color>
+    <color name="spinner_end_default_color">#00E676</color>
+    <color name="spinner_start_pressed_color">#00D399</color>
+    <color name="spinner_end_pressed_color">#00BE60</color>
+
+    <color name="spinners_button_default_start_color">#00E676</color>
+    <color name="spinners_button_default_end_color">#11DBA9</color>
+    <color name="spinners_button_pressed_start_color">#00BE60</color>
+    <color name="spinners_button_pressed_end_color">#0A8D6B</color>
+
+    <color name="spinner_focused_color">#00D558</color>
+    <color name="spinner_focused_stroke_color">#017E04</color>
 
 </resources>

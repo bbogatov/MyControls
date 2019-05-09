@@ -12,8 +12,10 @@
         android:right="2dp"
         android:top="2dp" />
 
-    <gradient
-        android:endColor="@color/spinner_end_default_color"
-        android:startColor="@color/spinner_start_default_color" />
+    <stroke
+        android:color="@color/spinner_focused_stroke_color"
+        android:dashWidth="1dp" />
+
+    <solid android:color="@color/spinner_focused_color" />
 
 </shape>

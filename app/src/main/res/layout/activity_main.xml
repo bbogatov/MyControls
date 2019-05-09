@@ -6,9 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <Button
         android:id="@+id/button"
+
         style="@style/button_style"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -17,7 +17,6 @@
         android:text="@string/hello_world"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <RelativeLayout
         android:id="@+id/relativeLayout2"
@@ -30,19 +29,20 @@
 
 
         <Spinner
-            style="@style/spinner_style"
-
             android:id="@+id/spinner"
+
+            style="@style/spinner_style"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:entries="@array/array_string"
-            android:spinnerMode="dialog"
+            android:popupBackground="@drawable/custom_dropdown"
+
             app:layout_constraintStart_toStartOf="parent" />
 
         <ImageButton
-            style="@style/spinner_button_style"
-
             android:id="@+id/imageButton"
+
+            style="@style/spinner_button_style"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignBottom="@+id/spinner"
@@ -51,6 +51,5 @@
             app:srcCompat="@android:drawable/arrow_down_float" />
 
     </RelativeLayout>
-
 
 </android.support.constraint.ConstraintLayout>

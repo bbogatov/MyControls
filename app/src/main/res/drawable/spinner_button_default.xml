@@ -6,8 +6,8 @@
         android:bottomRightRadius="6dp"
         android:topRightRadius="6dp" />
     <gradient
-        android:endColor="#11DBA9"
-        android:startColor="#00E676" />
+        android:endColor="@color/spinners_button_default_end_color"
+        android:startColor="@color/spinners_button_default_start_color" />
 
 
 </shape>

@@ -6,8 +6,10 @@
         android:bottomRightRadius="6dp"
         android:topRightRadius="6dp" />
 
-    <gradient
-        android:endColor="@color/spinners_button_pressed_end_color"
-        android:startColor="@color/spinners_button_pressed_start_color" />
+    <stroke
+        android:color="@color/spinner_focused_stroke_color"
+        android:dashWidth="1dp" />
+
+    <solid android:color="@color/spinner_focused_color" />
 
 </shape>
